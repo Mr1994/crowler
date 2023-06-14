@@ -142,8 +142,8 @@ func TestGtp35(t *testing.T) {
 		panic(err.Error())
 	}
 
-	//apiKey := "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"
-	apiKey := "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"
+	//apiKey := ""
+	apiKey := ""
 
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Authorization", "Bearer "+apiKey)
